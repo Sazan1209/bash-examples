@@ -16,7 +16,8 @@ will instead call ```/bin/bash ./basic_exe```
 The shebang has to be the first symbol in the file to work 
 correctly
 
-In bash scripts symbols denote comments
+In bash scripts `#` symbols denote comments
+
 
 A bash script consists of a series of simple or compound 
 commands. Simple commands (essentially) take the form of 
@@ -86,6 +87,10 @@ sleep 10; echo "This is seen after 10 seconds"
 ```
 
 ### Compound commands
+
+Compound commands allow several commands to be treated as a single command.
+Redirectons, environment variable changes and other stuff applied to a compound 
+command applies to every command inside
 
 A compound command takes the form
 ```( <list>; )```

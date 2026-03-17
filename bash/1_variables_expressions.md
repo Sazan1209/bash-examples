@@ -34,7 +34,7 @@ The various attributes are as follows:
 
 `-i`: variable is an integer arithmetic evaluation (more on that below) is performed when the variable is assigned a value
 
-`-x`: variable is <i>inherited</i>, meaning its value will be avalible for subsequent commands
+`-x`: variable is <i>inherited</i>, meaning it will be set by default for subsequent commands
 
 There are other attributes, but they're mostly useless, so we'll not mention them
 
